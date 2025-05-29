@@ -5,8 +5,11 @@ function uppg4() {
     // objektet ska ha två properties, name och age
     // tilldela age 25
     // skriv ut med dotnotation åldern i konsolen
-
-
+  new Object(person);
+    
+  Object.defineProperties(person, {
+    age: {
+      value: 25
 }
 
 module.exports = { uppg4 };
